@@ -141,12 +141,101 @@ ul {
     flex-direction: row;
 }
 
+/* ==========================================================================
+   
+   ========================================================================== */
+.main-content {
+    margin: 0;
+    margin-top: 0px;
+}
+.banner {
+    margin: 0 auto;
+    padding: 0;
+    background-image:url(../img/bannerbg.jpg);
+    width: 100%;
+    height: 900px;
+    font-size: 30px;
+}
+
+.quote {
+    margin: 0;padding-top: 250px;
+}
+
+.banner h2 {
+    height:50px;
+    width: 470px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    color: black;
+    letter-spacing: 3px;
+    font-weight: 300;
+}
 
 
+.banner p {
+    height:40px;
+    width: 300px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+/* ===========banner einde===========================================================*/
 
 
+.about {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 900px;
+    background-color: red;
+}
 
+.title {
+    width: 160px;
+    height: 70px;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 30px;
+    text-align: center;
+}
 
+.left-title {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 30px;
+    height: 55px;
+}
+.left-title h2 {
+    color:black;
+    width: 30px;
+    height: 55px;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    letter-spacing: 2px;
+    border-bottom: 2px solid white;
+}
+
+.right-title {
+    margin: 0;
+    padding: 0;
+    width: 20px;
+    height: 60px;
+}
+.right-title h2 {
+    color:white;
+    width: 150px;
+    height: 55px;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    letter-spacing: 2px;
+    border-bottom:2px solid black;
+}
 
 
 
