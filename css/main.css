@@ -233,7 +233,7 @@ h1 , h2 , h3 , h4 , h5 , h6 {
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    background-image: url(../img/aboutbg.jpg);
+    background-color: cyan;
     height: 100%;
 }
 
@@ -254,14 +254,14 @@ h1 , h2 , h3 , h4 , h5 , h6 {
     height: 55px;
 }
 .left-title h2 {
-    color:black;
+    color:white;
     width: 30px;
     height: 55px;
     margin: 0;
     padding: 0;
     font-weight: 300;
     letter-spacing: 2px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
 }
 
 .right-title {
@@ -278,7 +278,7 @@ h1 , h2 , h3 , h4 , h5 , h6 {
     padding: 0;
     font-weight: 300;
     letter-spacing: 2px;
-    border-bottom:2px solid black;
+    border-bottom:2px solid white;
 }
 
 .clip {
