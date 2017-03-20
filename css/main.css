@@ -345,17 +345,32 @@ iframe {
     color:cyan;
 }
 
+.formposition {
+    width: 35%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.formlabels {
+    width: 28%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.forminputs {
+    width: 70%;
+}
+
 form {
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
-label {
-    margin: 0 5px;
-}
-
-.formcol {
-    width: 100%;
-    padding: 10px 0;
+.formposition input , .formposition label {
+    margin: 5px 0;
 }
 
 /* ==========================================================================
