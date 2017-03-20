@@ -325,7 +325,6 @@ h1 , h2 , h3 , h4 , h5 , h6 {
 
 .download-button h2:hover {
     color:cyan;
-    letter-spacing: 5px;
     background: white;
     border:2px solid cyan;
 }
@@ -344,6 +343,7 @@ h1 , h2 , h3 , h4 , h5 , h6 {
    Helper classes
    ========================================================================== */
 
+/* Fade */
 .hvr-fade {
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
@@ -357,6 +357,24 @@ h1 , h2 , h3 , h4 , h5 , h6 {
 .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
   color: white;
 }
+
+/* Glow */
+
+.hvr-glow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+}
+
 
 /*
  * Hide visually and from screen readers
